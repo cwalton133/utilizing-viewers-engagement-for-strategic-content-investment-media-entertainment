@@ -1,6 +1,3 @@
-# utilizing-viewers-engagement-for-strategic-content-investment-media-entertainment
-This project explores how viewer engagement metrics can inform and optimize strategic content investment decisions within the Media &amp; Entertainment industry
-
 # Utilizing Viewers Engagement for Strategic Content Investment in the Media & Entertainment Sector
 
 # 🏬 Utilizing Viewers Engagement for Strategic Content Investment (Microsoft Excel and its Power Tools Project)
@@ -96,7 +93,51 @@ The data covers a period of 3 months, providing a snapshot of viewer behavior.
 **Outcome:**  
 Prepared datasets for transformation and modeling, with a clear understanding of data quality and structure.
 
-## ![alt text](document.png)
+## ![Data Wrangling](document.png)
+
+## Submit Deliverable
+
+Week Number: Week 1 Day 3
+
+## Deliverable Title: KPI Calculations and Viewer Engagement Metrics
+
+## Note Section:
+
+This deliverable includes the calculation of key engagement KPIs such as Completion Rate, Repeat Viewer Rate, and additional viewer engagement metrics. Pivot tables were utilized to organize and analyze the data, providing comprehensive insights into viewer engagement quality and behavior..
+
+## Task Description:
+
+Build pivot tables to compute KPIs including Completion Rate and Repeat Viewer Rate for each content genre. Additionally, analyze viewer engagement metrics such as Average Watch Time, Retention Rate, Concurrent Viewers, and Chat Activity. The task involved creating data summaries, performing calculations within pivot tables, and generating insights to assess viewer engagement and content effectiveness..
+
+## Submission Text:
+
+The attached workbook contains the pivot tables and KPI calculations for viewer engagement analysis, including metrics like Average Watch Time, Retention Rate, Concurrent Viewers, and Chat Activity. These insights support understanding viewer behavior, engagement quality, and community involvement across different genres.
+
+## Objectives
+
+- Calculate and analyze viewer engagement KPIs.
+- Understand viewer retention and participation.
+- Identify high-performing genres based on engagement metrics.
+- Support data-driven decision-making for content investment.
+
+## Methodology
+
+- Created pivot tables to organize raw data.
+- Calculated KPIs including completion and retention rates.
+- Analyzed viewer engagement metrics such as Average Watch Duration, Concurrent Viewers, and Chat Activity.
+- Visualized data for insights into viewer behavior.
+
+## File Upload Images:
+
+## ![KPI Calculation](document2.png)
+
+## Submission Link (Optional):
+
+(Include a link if submitting via a platform or cloud storage)
+
+## Conclusion
+
+The analysis reveals significant variations in viewer engagement across genres, with Biography and Musical genres achieving 100% completion rates, indicating strong viewer retention. Genres like Action and Drama also demonstrate high engagement levels. These insights are instrumental in guiding strategic content investment decisions to maximize viewer retention and community involvement.
 
 ## 🧹 Data Preparation
 
@@ -220,4 +261,3 @@ Using the initial week’s activities and data validation, the project set a sol
 **Role:** Data Analyst Consultant
 **Tools:** Excel | Power Query | Power Tools | Data Modeling  
 **Contact:** cwalton1335@gmail.com
-
