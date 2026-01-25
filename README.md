@@ -116,20 +116,17 @@ This project follows the **CRISP-DM framework**:
 ## 🧹 Week 1: Analytics Foundation
 
 ### Day 1 – Project Kickoff & Data Orientation
-
 - Defined business problem and success metrics
 - Identified key analytical questions
 - Established KPIs aligned to engagement & retention
 
 ### Day 2 – Data Ingestion & Quality Assessment
-
 - Imported CSV files into Excel
 - Enforced data types
 - Validated row counts, uniqueness, nulls, and outliers
 - Logged data quality issues and remediation plan
 
 ### Day 3 – KPI Calculation
-
 - Built pivot tables by genre
 - Calculated:
   - Completion Rate
@@ -138,13 +135,11 @@ This project follows the **CRISP-DM framework**:
   - Concurrent Viewers
 
 ### Day 4 – Retention Analysis
-
 - Cross-tabulated Genre vs Renewal_Status
 - Ranked genres by composite engagement score
 - Identified churn-resistant content categories
 
 ### Day 5 – Interpretation & Insights
-
 - Translated metrics into executive insights
 - Defined where to invest, optimize, or deprioritize
 
@@ -152,25 +147,52 @@ This project follows the **CRISP-DM framework**:
 
 ## 📊 Week 2: Dashboard & Storytelling
 
-### Day 1 – Dashboard Wireframing
+> 📸 **Screenshot Placeholder – Dashboard Wireframe**  
+> _Insert Excalidraw wireframe illustrating dashboard layout and information hierarchy._  
+> **Filename suggestion:** `/dashboard/dashboard_wireframe.png`
 
+### Day 1 – Dashboard Wireframing
 - Designed layout using Excalidraw
 - Defined visual hierarchy for executives
 
-### Day 2 – Chart Building
+> 📸 **Screenshot Placeholder – Chart Design Samples**  
+> _Insert Excel charts showing genre comparison and trends._  
+> **Filename suggestion:** `/dashboard/genre_charts.png`
 
+### Day 2 – Chart Building
 - Built bar, line, and KPI tile visuals
 - Applied executive formatting & labeling standards
 - Added slicers for interactivity
 
-### Day 3 – One-Page Executive Dashboard
+> 📸 **Screenshot Placeholder – One-Page Dashboard**  
+> _Insert final one-page Excel dashboard._  
+> **Filename suggestion:** `/dashboard/final_dashboard.png`
 
+### Day 3 – One-Page Executive Dashboard
 - KPI Tiles: Completion %, Renewal %
 - Top 5 Genre Performance
 - Monthly Engagement Trends
 
 ### Day 5 – Executive Presentation
+- Converted dashboard insights into C-suite storytelling
+- Delivered recommendations backed by data
 
+
+### Day 1 – Dashboard Wireframing
+- Designed layout using Excalidraw
+- Defined visual hierarchy for executives
+
+### Day 2 – Chart Building
+- Built bar, line, and KPI tile visuals
+- Applied executive formatting & labeling standards
+- Added slicers for interactivity
+
+### Day 3 – One-Page Executive Dashboard
+- KPI Tiles: Completion %, Renewal %
+- Top 5 Genre Performance
+- Monthly Engagement Trends
+
+### Day 5 – Executive Presentation
 - Converted dashboard insights into C-suite storytelling
 - Delivered recommendations backed by data
 
@@ -189,6 +211,18 @@ These KPIs directly support ROI-driven content decisions.
 ---
 
 ## 📈 Executive Dashboard
+
+> 📸 **Screenshot Placeholder – Executive Dashboard**  
+> _Insert Excel dashboard image showing KPI tiles, Top Genres bar chart, and trend lines._  
+> **Filename suggestion:** `/dashboard/streamwave_executive_dashboard.png`
+
+The Excel dashboard enables leadership to:
+
+- Slice performance by genre
+- Compare engagement vs retention
+n- Identify high-impact investment areas
+- Monitor churn-sensitive content
+
 
 The Excel dashboard enables leadership to:
 
@@ -234,8 +268,40 @@ This project demonstrates how Excel-based analytics can deliver **enterprise-lev
 
 ---
 
+## 📁 GitHub Repository Structure
+
+```text
+streamwave-content-strategy/
+│
+├── data/
+│   ├── raw/
+│   │   └── streamwave_viewing_logs.csv
+│   └── processed/
+│       └── cleaned_streamwave_data.xlsx
+│
+├── dashboard/
+│   ├── dashboard_wireframe.png
+│   ├── genre_charts.png
+│   └── streamwave_executive_dashboard.png
+│
+├── slides/
+│   └── StreamWave_CSuite_Content_Strategy.pptx
+│
+├── README.md
+└── LICENSE
+```
+
+This structure ensures clarity, scalability, and recruiter-friendly navigation.
+
+---
+
 ## 👩‍💻 Author
 
-**Charles Walton**
-Data Analyst | Business Intelligence | Media Analytics
-📧 [cwalton1335@gmail.com](mailto:cwalton1335@gmail.com)
+**Charles Walton**  
+Data Analyst | Business Intelligence | Media Analytics  
+📧 cwalton1335@gmail.com
+
+**Charles Walton**  
+Data Analyst | Business Intelligence | Media Analytics  
+📧 cwalton1335@gmail.com
+
