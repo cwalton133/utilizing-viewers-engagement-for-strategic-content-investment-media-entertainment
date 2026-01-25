@@ -12,6 +12,14 @@ The analysis simulates a real-world business scenario at **StreamWave Entertainm
 
 ---
 
+## 📊 Badges
+
+![GitHub repo size](https://img.shields.io/github/repo-size/cwalton133/utilizing-viewers-engagement-for-strategic-content-investment-media-entertainment)
+![License](https://img.shields.io/github/license/cwalton133/utilizing-viewers-engagement-for-strategic-content-investment-media-entertainment)
+![GitHub top language](https://img.shields.io/github/languages/top/cwalton133/utilizing-viewers-engagement-for-strategic-content-investment-media-entertainment)
+
+---
+
 ## 🧭 Business Context
 
 **StreamWave Entertainment** is a global streaming platform with over **150 million subscribers** across 190+ countries. As competition intensifies and content production costs rise, leadership faces increasing pressure to:
@@ -99,7 +107,10 @@ The dataset captures simulated streaming activity and includes:
 This structure supports engagement, retention, and churn analysis.
 
 ---
+📄 **Download Raw Dataset:**  
+👉 [streamwave_viewing_logs.csv](data/raw/streamwave_viewing_logs.csv)
 
+---
 ## 🔍 Methodology (CRISP-DM)
 
 This project follows the **CRISP-DM framework**:
@@ -133,6 +144,9 @@ This project follows the **CRISP-DM framework**:
   - Repeat Viewer Rate
   - Average Watch Duration
   - Concurrent Viewers
+  
+![KPI Calculation](dashboard/genre_charts.png)
+
 
 ### Day 4 – Retention Analysis
 - Cross-tabulated Genre vs Renewal_Status
@@ -156,8 +170,8 @@ This project follows the **CRISP-DM framework**:
 - Defined visual hierarchy for executives
 
 > 📸 **Screenshot Placeholder – Chart Design Samples**  
-> _Insert Excel charts showing genre comparison and trends._  
-> **Filename suggestion:** `/dashboard/genre_charts.png`
+> _![Dashboard Wireframe](dashboard/dashboard_wireframe.png)
+
 
 ### Day 2 – Chart Building
 - Built bar, line, and KPI tile visuals
@@ -165,8 +179,9 @@ This project follows the **CRISP-DM framework**:
 - Added slicers for interactivity
 
 > 📸 **Screenshot Placeholder – One-Page Dashboard**  
-> _Insert final one-page Excel dashboard._  
-> **Filename suggestion:** `/dashboard/final_dashboard.png`
+> 
+> **![Executive Dashboard](dashboard/streamwave_executive_dashboard.png)
+
 
 ### Day 3 – One-Page Executive Dashboard
 - KPI Tiles: Completion %, Renewal %
@@ -213,8 +228,15 @@ These KPIs directly support ROI-driven content decisions.
 ## 📈 Executive Dashboard
 
 > 📸 **Screenshot Placeholder – Executive Dashboard**  
-> _Insert Excel dashboard image showing KPI tiles, Top Genres bar chart, and trend lines._  
-> **Filename suggestion:** `/dashboard/streamwave_executive_dashboard.png`
+> 
+> ** ![Executive Dashboard](dashboard/streamwave_executive_dashboard.png)
+
+
+## 📈 Download C-Suite Presentation:
+
+> 📸 **Screenshot Placeholder – C-Suite Presentation**  
+> **👉 [StreamWave_CSuite_Content_Strategy.pptx](slides/StreamWave_CSuite_Content_Strategy.pptx)
+
 
 The Excel dashboard enables leadership to:
 
@@ -301,7 +323,5 @@ This structure ensures clarity, scalability, and recruiter-friendly navigation.
 Data Analyst | Business Intelligence | Media Analytics  
 📧 cwalton1335@gmail.com
 
-**Charles Walton**  
-Data Analyst | Business Intelligence | Media Analytics  
-📧 cwalton1335@gmail.com
+
 
