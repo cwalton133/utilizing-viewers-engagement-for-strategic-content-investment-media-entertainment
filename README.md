@@ -1,263 +1,241 @@
-# Utilizing Viewers Engagement for Strategic Content Investment in the Media & Entertainment Sector
+# 🎬 Utilizing Viewers’ Engagement for Strategic Content Investment in the Media & Entertainment Sector
 
-# 🏬 Utilizing Viewers Engagement for Strategic Content Investment (Microsoft Excel and its Power Tools Project)
+## 🏬 Microsoft Excel & Power Tools Analytics Project
+
+---
 
 ## 🪄 Introduction
 
-This project analyzes the **Utilizing Viewers Engagement dataset** using **Power Query and Excel Tools** to uncover key insights into viewer engagement trends.
+This project analyzes a **viewer engagement dataset** using **Microsoft Excel, Power Query, and Excel Power Tools** to uncover actionable insights that guide **content investment, retention optimization, and strategic decision-making** for a global streaming platform.
 
-## Business Context
+The analysis simulates a real-world business scenario at **StreamWave Entertainment**, demonstrating how data analytics supports executive-level decisions in the Media & Entertainment industry.
 
-StreamWave Entertainment, a leading global streaming platform with over 150 million subscribers, has grown significantly since its transition from DVD rentals to a digital-first streaming service. However, with increasing competition in the entertainment industry and rising content production costs, StreamWave faces the challenge of allocating resources effectively across its vast content library to maximize subscriber engagement and retention. The company needs a data-driven strategy to optimize content investments and ensure the most engaging genres are prioritized.
+---
 
-## Purpose of the Project:
+## 🧭 Business Context
 
-The purpose of this project is to analyze viewer data to identify the top-performing content genres that drive user engagement, retention, and growth. By using Excel-based analytics, the project will provide actionable insights into which genres perform best in terms of viewer engagement and subscriber loyalty. This will enable StreamWave to make more informed decisions about where to allocate marketing, production, and licensing budgets.
+**StreamWave Entertainment** is a global streaming platform with over **150 million subscribers** across 190+ countries. As competition intensifies and content production costs rise, leadership faces increasing pressure to:
 
-## Expected Outcome:
+- Allocate limited budgets effectively
+- Reduce subscriber churn
+- Prioritize high-ROI content genres
+- Maintain competitive differentiation through data-driven insights
 
-The expected outcome is a strategic framework based on data-driven insights that will allow StreamWave to optimize its content investment strategy. By identifying the most popular and engaging genres, the company will be able to reduce churn, improve content recommendations, and allocate resources more effectively. The project aims to enhance decision-making, ultimately improving user satisfaction, retention rates, and the platform’s competitive position in the market.
+Despite a vast content library, not all genres contribute equally to engagement and retention—making analytics critical to investment strategy.
+
+---
+
+## 🎯 Purpose of the Project
+
+The primary goal of this project is to **identify top-performing content genres** that drive:
+
+- Viewer engagement quality (completion & repeat viewing)
+- Subscriber retention and renewal
+- Efficient allocation of marketing and production spend
+
+Using **Excel-based analytics**, the project translates raw viewing logs into executive-ready insights.
+
+---
+
+## 📈 Expected Outcomes
+
+- A **data-driven framework** for content investment decisions
+- Identification of **high-ROI genres**
+- Reduced churn through better-aligned content strategy
+- Improved personalization and recommendation logic
+- Executive dashboards for rapid decision-making
 
 ---
 
 ## ⚠️ Disclaimer
 
-This dataset was used **strictly for learning and demonstration purposes**.  
-It does **not represent any real company's data**, customers, or transactions.  
-All names, figures, and locations are fictional or anonymized.
+This dataset is used **strictly for learning and portfolio demonstration purposes**.
+
+- It does **not represent real StreamWave data**
+- All entities, metrics, and scenarios are fictional or anonymized
 
 ---
 
 ## 📑 Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Dataset Description](#dataset-description)
-3. [Week 1 Activities](#week-1-activities)
-4. [Data Preparation](#data-preparation)
-5. [Data Modeling](#data-modeling)
-6. [DAX Measures](#dax-measures)
-7. [Visuals and Dashboard Pages](#visuals-and-dashboard-pages)
-8. [Key Insights](#key-insights)
-9. [Recommendations](#recommendations)
-10. [Tools Used](#tools-used)
-11. [Conclusion](#conclusion)
-12. [Author](#author)
+- [Project Overview](#-project-overview)
+- [Dataset Description](#-dataset-description)
+- [Methodology (CRISP-DM)](#-methodology-crisp-dm)
+- [Week 1: Analytics Foundation](#-week-1-analytics-foundation)
+- [Week 2: Dashboard & Storytelling](#-week-2-dashboard--storytelling)
+- [Key KPIs & Metrics](#-key-kpis--metrics)
+- [Executive Dashboard](#-executive-dashboard)
+- [Key Insights](#-key-insights)
+- [Strategic Recommendations](#-strategic-recommendations)
+- [Tools & Technologies](#-tools--technologies)
+- [Conclusion](#-conclusion)
+- [Author](#-author)
 
 ---
 
 ## 🧭 Project Overview
 
-The Viewers Engagement Analysis project provides insights into how viewer interactions influence content strategy decisions. It aims to identify:
+This project demonstrates how **viewer behavior data** can be transformed into strategic insights that inform:
 
-- Trends in **viewer engagement metrics**
-- **Top-performing genres** and content types
-- **User retention** patterns
-- Content performance across different regions and time periods
+- Content acquisition & production
+- Genre-level investment prioritization
+- Marketing optimization
+- Retention-focused decision-making
 
-This project demonstrates the use of Excel, Power Query, and Power Tools to transform raw data into actionable insights for strategic content investment.
+The analysis emphasizes **business impact**, not just metrics.
 
 ---
 
 ## 🗂️ Dataset Description
 
-The dataset consists of multiple tables capturing viewer interactions, content details, and regional data:
+The dataset captures simulated streaming activity and includes:
 
-1. **Engagements** – Contains viewer engagement records (views, likes, shares).
-2. **Content** – Details about each content piece (genre, type, release date).
-3. **Viewers** – Viewer demographic and subscription info.
-4. **Regions** – Geographical data related to viewers.
-5. **Time** – Date-related information for analysis.
+- **User_ID** – Unique subscriber identifier
+- **Demographics** – Age, Gender
+- **Subscription Data** – Tier, Status, Renewal
+- **Content Attributes** – Title, Genre, Duration, Release Year
+- **Viewing Behavior** – Watch Duration, Completion Flag, Watch Date
 
-The data covers a period of 3 months, providing a snapshot of viewer behavior.
-
----
-
-## 🧹 Week 1 Activities
-
-**Day 1:**
-
-- Imported all relevant datasets into Excel.
-- Ensured correct data types for each column (dates, numbers, text).
-- Removed duplicates and irrelevant columns.
-- Promoted headers for clarity.
-
-**Day 2:**
-
-- Performed initial data validation:
-  - Checked row and column counts.
-  - Identified missing values in key fields (e.g., engagement metrics).
-  - Analyzed duplicate viewer IDs.
-  - Noted outliers in engagement metrics such as unusually high views or shares.
-- Documented initial observations and data quality issues for further cleaning.
-
-**Outcome:**  
-Prepared datasets for transformation and modeling, with a clear understanding of data quality and structure.
-
-## ![Data Wrangling](document.png)
-
-## Submit Deliverable
-
-Week Number: Week 1 Day 3
-
-## Deliverable Title: KPI Calculations and Viewer Engagement Metrics
-
-## Note Section:
-
-This deliverable includes the calculation of key engagement KPIs such as Completion Rate, Repeat Viewer Rate, and additional viewer engagement metrics. Pivot tables were utilized to organize and analyze the data, providing comprehensive insights into viewer engagement quality and behavior..
-
-## Task Description:
-
-Build pivot tables to compute KPIs including Completion Rate and Repeat Viewer Rate for each content genre. Additionally, analyze viewer engagement metrics such as Average Watch Time, Retention Rate, Concurrent Viewers, and Chat Activity. The task involved creating data summaries, performing calculations within pivot tables, and generating insights to assess viewer engagement and content effectiveness..
-
-## Submission Text:
-
-The attached workbook contains the pivot tables and KPI calculations for viewer engagement analysis, including metrics like Average Watch Time, Retention Rate, Concurrent Viewers, and Chat Activity. These insights support understanding viewer behavior, engagement quality, and community involvement across different genres.
-
-## Objectives
-
-- Calculate and analyze viewer engagement KPIs.
-- Understand viewer retention and participation.
-- Identify high-performing genres based on engagement metrics.
-- Support data-driven decision-making for content investment.
-
-## Methodology
-
-- Created pivot tables to organize raw data.
-- Calculated KPIs including completion and retention rates.
-- Analyzed viewer engagement metrics such as Average Watch Duration, Concurrent Viewers, and Chat Activity.
-- Visualized data for insights into viewer behavior.
-
-## File Upload Images:
-
-## ![KPI Calculation](document2.png)
-
-## Submission Link (Optional):
-
-(Include a link if submitting via a platform or cloud storage)
-
-## Conclusion
-
-The analysis reveals significant variations in viewer engagement across genres, with Biography and Musical genres achieving 100% completion rates, indicating strong viewer retention. Genres like Action and Drama also demonstrate high engagement levels. These insights are instrumental in guiding strategic content investment decisions to maximize viewer retention and community involvement.
-
-## 🧹 Data Preparation
-
-Data cleaning and transformation were carried out in **Power Query**:
-
-- Removed duplicates and null values.
-- Changed data types for consistency.
-- Filtered out irrelevant data.
-- Created calculated columns for engagement rates.
-- Loaded cleaned data into Excel for further analysis.
+This structure supports engagement, retention, and churn analysis.
 
 ---
 
-## 🔗 Data Modeling
+## 🔍 Methodology (CRISP-DM)
 
-Relationships were established among the tables:
+This project follows the **CRISP-DM framework**:
 
-- **Content** linked to **Engagements** via Content ID.
-- **Viewers** linked to **Engagements** via Viewer ID.
-- **Regions** linked to **Viewers**.
-- **Time** linked to **Engagements** via Date.
-
-The model supports dynamic analysis of engagement metrics across different dimensions.
-
----
-
-## 📊 DAX Measures
-
-(Note: In Excel, these would be formulas or calculated fields, but for clarity, they are described here.)
-
-### **Base Metrics**
-
-- Total Views
-- Total Likes
-- Total Shares
-- Engagement Rate (Views per Content)
-- Unique Viewers Count
-
-### **Trend Measures**
-
-- Engagements by Day
-- Engagements by Genre
-- Engagements by Region
-
-### **Growth & Comparison**
-
-- Week-over-Week Engagement Growth
-- Engagement Percent Change in Top Genres
+1. **Business Understanding** – Define retention and ROI challenges
+2. **Data Understanding** – Explore structure, patterns, anomalies
+3. **Data Preparation** – Clean, validate, enrich datasets
+4. **Modeling** – Pivot tables and calculated metrics
+5. **Evaluation** – Validate insights against business goals
+6. **Deployment** – Dashboards and executive presentation
 
 ---
 
-## 📈 Visuals and Dashboard Pages
+## 🧹 Week 1: Analytics Foundation
 
-The Excel dashboard includes:
+### Day 1 – Project Kickoff & Data Orientation
 
-### **1️⃣ Engagement Overview Page**
+- Defined business problem and success metrics
+- Identified key analytical questions
+- Established KPIs aligned to engagement & retention
 
-- KPIs: Total Views, Likes, Shares, Engagement Rate
-- Trends over time (line charts)
-- Top 10 Content by Engagement
-- Engagement by Region map
+### Day 2 – Data Ingestion & Quality Assessment
 
-### **2️⃣ Genre Performance Page**
+- Imported CSV files into Excel
+- Enforced data types
+- Validated row counts, uniqueness, nulls, and outliers
+- Logged data quality issues and remediation plan
 
-- Bar charts of engagement by genre
-- Outliers and anomalies
-- Top performing genres
+### Day 3 – KPI Calculation
 
-### **3️⃣ Regional Insights Page**
+- Built pivot tables by genre
+- Calculated:
+  - Completion Rate
+  - Repeat Viewer Rate
+  - Average Watch Duration
+  - Concurrent Viewers
 
-- Engagement heatmaps
-- Regional comparisons
-- Viewer retention analysis
+### Day 4 – Retention Analysis
 
-### **4️⃣ Activity & Trends Page**
+- Cross-tabulated Genre vs Renewal_Status
+- Ranked genres by composite engagement score
+- Identified churn-resistant content categories
 
-- Daily engagement trends
-- Weekly growth patterns
-- Outlier detection
+### Day 5 – Interpretation & Insights
+
+- Translated metrics into executive insights
+- Defined where to invest, optimize, or deprioritize
+
+---
+
+## 📊 Week 2: Dashboard & Storytelling
+
+### Day 1 – Dashboard Wireframing
+
+- Designed layout using Excalidraw
+- Defined visual hierarchy for executives
+
+### Day 2 – Chart Building
+
+- Built bar, line, and KPI tile visuals
+- Applied executive formatting & labeling standards
+- Added slicers for interactivity
+
+### Day 3 – One-Page Executive Dashboard
+
+- KPI Tiles: Completion %, Renewal %
+- Top 5 Genre Performance
+- Monthly Engagement Trends
+
+### Day 5 – Executive Presentation
+
+- Converted dashboard insights into C-suite storytelling
+- Delivered recommendations backed by data
+
+---
+
+## 📌 Key KPIs & Metrics
+
+- **Completion Rate**
+- **Repeat Viewer Rate**
+- **Average Watch Duration**
+- **Renewal Rate / Retention Lift**
+- **Concurrent Viewers**
+
+These KPIs directly support ROI-driven content decisions.
+
+---
+
+## 📈 Executive Dashboard
+
+The Excel dashboard enables leadership to:
+
+- Slice performance by genre
+- Compare engagement vs retention
+- Identify high-impact investment areas
+- Monitor churn-sensitive content
 
 ---
 
 ## 💡 Key Insights
 
-- Certain genres (e.g., Action, Drama) outperform others in engagement.
-- Viewership peaks during weekends and evenings.
-- Regions such as North America and Europe show higher engagement.
-- Early data indicates a 15% week-over-week increase in active viewers.
-- Outliers in shares suggest viral content.
+- **Drama** drives the highest views and repeat engagement
+- **Comedy** balances strong engagement with loyalty
+- **Horror** shows exceptional viewer loyalty
+- **Biography** has high completion but weak retention
+- **Sci-Fi & Action** offer scalable growth potential
 
 ---
 
-## 🧠 Recommendations
+## 🧠 Strategic Recommendations
 
-1. Focus on top genres like Action and Drama for targeted marketing.
-2. Increase content releases during high engagement periods (weekends, evenings).
-3. Promote regional content to underperforming areas.
-4. Monitor outliers to identify viral content and replicate success.
-5. Enhance viewer retention with personalized recommendations.
+1. Increase investment in **Drama and Comedy**
+2. Develop niche sub-genres in **Sci-Fi and Action**
+3. Refresh **Documentary formats** for broader appeal
+4. Implement retention strategies for **Biography**
+5. Use genre-driven personalization to reduce churn
 
 ---
 
-## 🧰 Tools Used
+## 🧰 Tools & Technologies
 
-- **Excel** – Data analysis, formulas, and dashboards
-- **Power Query** – Data cleaning and transformation
-- **Power Tools Add-ins** – Additional data modeling capabilities
+- **Microsoft Excel** – Analysis & dashboards
+- **Power Query** – Data cleaning & transformation
+- **Excel Pivot Tables** – KPI modeling
+- **Excalidraw** – Dashboard wireframing
 
 ---
 
 ## 🏁 Conclusion
 
-The Viewer Engagement Dashboard provides vital insights into viewer behavior, content performance, and regional trends.  
-Using the initial week’s activities and data validation, the project set a solid foundation for ongoing analysis to optimize content investment strategies.
+This project demonstrates how Excel-based analytics can deliver **enterprise-level insights** when aligned with business strategy. By focusing on engagement quality and retention—not just views—StreamWave can maximize ROI and maintain competitive advantage.
 
 ---
 
 ## 👩‍💻 Author
 
-**Name:** Charles Walton
-**Role:** Data Analyst Consultant
-**Tools:** Excel | Power Query | Power Tools | Data Modeling  
-**Contact:** cwalton1335@gmail.com
+**Charles Walton**
+Data Analyst | Business Intelligence | Media Analytics
+📧 [cwalton1335@gmail.com](mailto:cwalton1335@gmail.com)
